@@ -1,9 +1,8 @@
-```markdown
+
 # Metric Unit Converter
 
 This is a command-line-based Metric Unit Converter in Rust that enables conversions between various metric units (millimeters, centimeters, decimeters, meters, kilometers) and certain imperial units (inches and feet). Users can convert distances in both directions between different units by providing a specific command.
 
----
 
 ## Features
 
