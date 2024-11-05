@@ -3,12 +3,15 @@
 
 This is a command-line-based Metric Unit Converter in Rust that enables conversions between various metric units (millimeters, centimeters, decimeters, meters, kilometers) and certain imperial units (inches and feet). Users can convert distances in both directions between different units by providing a specific command.
 
+---
 
 ## Features
 
 - **Metric to Metric Conversions**: Millimeters, Centimeters, Decimeters, Meters, and Kilometers.
 - **Metric to Imperial Conversions**: Convert between metric units and inches or feet.
 - **Imperial to Metric Conversions**: Supports conversions from inches and feet to metric units.
+
+
 
 ## Usage
 
@@ -40,6 +43,8 @@ This is a command-line-based Metric Unit Converter in Rust that enables conversi
      ```plaintext
      inch into m
      ```
+
+
 
 ## Available Commands
 
@@ -88,9 +93,14 @@ This is a command-line-based Metric Unit Converter in Rust that enables conversi
 | `inch into feet` | Convert inches to feet                    |
 | `feet into inch` | Convert feet to inches                    |
 
+
+
+
 ## Code Overview
 
 The program is structured into separate functions for each type of conversion. Each function accepts a command (e.g., `m into cm`) and prompts the user for input in the originating unit. It then performs the conversion and displays the result.
+
+
 
 ### Example Functions
 
@@ -99,11 +109,15 @@ The program is structured into separate functions for each type of conversion. E
 - **`mm_inch`**: Converts millimeters to inches or inches to millimeters.
 - **`km_foot`**: Converts kilometers to feet or feet to kilometers.
 
+
+
 ## Contributing
 
 Contributions are welcome! If you find a bug or have a feature request, please open an issue or create a pull request.
 
 ---
+
+
 
 ## License
 
